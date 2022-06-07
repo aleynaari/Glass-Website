@@ -23,7 +23,7 @@ main {
     );
     border-radius: 20px;
     z-index: 2;   /*for layer*/
-
+    backdrop-filter: blur(1rem);
 }
 
 .circle1, .circle2 {
