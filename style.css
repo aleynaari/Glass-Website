@@ -23,3 +23,25 @@ main {
     );
     border-radius: 20px;
 }
+
+.circle1, .circle2 {
+    background: white;
+    background: linear-gradient(
+        to right bottom,
+        rgba(255, 255, 255, 0.9),
+        rgba(255, 255, 255, 0.1)
+    );
+    height: 10rem;
+    width: 10rem;
+    position: absolute; /*can move it where ever you want*/
+}
+
+.circle1 {
+    top: 5%;
+    right: 15%;
+}
+
+.circle2 {
+    bottom: 5%;
+    left: 10%;
+}
