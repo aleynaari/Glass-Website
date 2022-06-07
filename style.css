@@ -6,7 +6,10 @@
 
 main {
     min-height: 100vh; /*full space of the monitor*/
-    background: linear-gradient(to right top, #65dfc9, #6cdbeb);    
+    background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+    display: flex;  /*glass position*/
+    align-items: center;  
+    justify-content: center;
 }
 
 .glass {
