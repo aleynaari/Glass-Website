@@ -6,5 +6,11 @@
 
 main {
     min-height: 100vh; /*full space of the monitor*/
-    background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+    background: linear-gradient(to right top, #65dfc9, #6cdbeb);    
+}
+
+.glass {
+    background: white;
+    min-height: 80vh; /* 80 percent of the screen*/
+    width: 60%;
 }
