@@ -52,6 +52,17 @@ main {
 
 .dashboard {
     flex: 1; /*take up all the avaiable space left*/
+    display: flex;
+    flex-direction: column; /*if we do not write this 2 align does not work and we cannot use center*/ 
+    align-items: center;
+    justify-content: space-evenly; /*placed the content*/
+    text-align: center;
+    background: linear-gradient(
+        to right bottom,
+        rgba(255, 255, 255, 0.7),
+        rgba(255, 255, 255, 0.3)
+    );
+    border-radius: 20px;
 }
 
 .games {
