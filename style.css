@@ -65,6 +65,17 @@ main {
     border-radius: 20px;
 }
 
+.link {
+    display: flex;
+    margin: 1rem 0rem;
+    padding: 1rem 3rem;
+    align-items: center;
+}
+
+.link h2 {
+    padding: 0rem 1rem;
+}
+
 .games {
     flex: 2; /*flex: 1; the space is going to split equally. flex 2 twice the amount of the space*/
 }
