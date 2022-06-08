@@ -24,7 +24,7 @@ main {
     border-radius: 20px;
     z-index: 2;   /*for layer*/
     backdrop-filter: blur(1rem);
-    display: flex;/*put everyting work vertically*/
+    display: flex;/*put everyting work horizontally*/
 }
 
 .circle1, .circle2 {
