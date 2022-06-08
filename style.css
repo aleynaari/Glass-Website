@@ -24,6 +24,7 @@ main {
     border-radius: 20px;
     z-index: 2;   /*for layer*/
     backdrop-filter: blur(1rem);
+    display: flex;/*put everyting work vertically*/
 }
 
 .circle1, .circle2 {
@@ -47,4 +48,12 @@ main {
 .circle2 {
     bottom: 5%;
     left: 10%;
+}
+
+.dashboard {
+    flex: 1; /*take up all the avaiable space left*/
+}
+
+.games {
+    flex: 2; /*flex: 1; the space is going to split equally. flex 2 twice the amount of the space*/
 }
