@@ -35,7 +35,7 @@ main {
 .glass {
     background: white;
     min-height: 80vh; /* 80 percent of the screen*/
-    width: 60%;
+    width: 65%;
     background: linear-gradient(
         to right bottom,
         rgba(255, 255, 255, 0.7),
@@ -62,7 +62,7 @@ main {
 
 .circle1 {
     top: 5%;
-    right: 15%;
+    right: 10%;
 }
 
 .circle2 {
@@ -112,6 +112,7 @@ main {
     position: absolute;
     top: -10%;
     right: 10%;
+    height: 100%;
 }
 
 .pro h2 {
