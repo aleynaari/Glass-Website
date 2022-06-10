@@ -178,3 +178,18 @@ main {
     position: absolute;
     left: 60%;
 }
+
+.card-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.percentage {
+    font-weight: bold;
+    background: linear-gradient(
+        to right top, #65dfc9, #6cdbeb
+        );
+    -webkit-background-clip: text; /*background ı yazıya uygulama*/
+    -webkit-text-fill-color: transparent;
+}
