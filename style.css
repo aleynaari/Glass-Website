@@ -87,8 +87,8 @@ main {
 
 .link {
     display: flex;
-    margin: 1rem 0rem;
-    padding: 1rem 3rem;
+    margin: 10px 5px;
+    padding: 10px 40px;
     align-items: center;
 }
 
@@ -104,14 +104,14 @@ main {
     background: linear-gradient(to right top, #65dfc9, #6cdbeb);
     border-radius: 2rem;
     color: white;
-    padding: 8px;
+    margin: 3%;
     position: relative;
 }
 
 .pro img {
     position: absolute;
     top: -10%;
-    right: 10%;
+    right: 5%;
     height: 100%;
 }
 
@@ -119,6 +119,7 @@ main {
     width: 40%;
     color: white;
     font-weight: 600;
+    margin: 5%;
 }
 
 /*GAMES*/
@@ -140,7 +141,7 @@ main {
 }
 
 .games {
-    margin: 5rem;
+    margin: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
